@@ -1,0 +1,21 @@
+h1{
+    margin: auto;
+        padding: auto;
+        font-size: 10vh;
+        width: 80vw;
+        padding: auto;
+        text-align: center;
+        /*background-color: blue;*/
+        /*border: 10px solid red;*/
+        color: rgb(163, 39, 39);
+        font-size: 5vh;
+        vertical-align: middle;
+}
+
+.container{
+    display: grid;
+    margin-top: 1vh;
+    height: 40vh;
+    grid-template-columns: 1fr 1fr;
+    
+}
