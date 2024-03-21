@@ -1,0 +1,35 @@
+@font-face {
+    font-family: Alien-Encounters;
+    src: url('/pages/aide/pages/programmation/pages/git/assets/Font/alien_encounters/Alien-Encounters-Bold.ttf') format('truetype');
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(168, 190, 192) ;
+}
+h1{
+    font-family: 'Alien-Encounters';
+    font-size: 750%;
+    margin-top: 0;
+    text-align: center;
+    color: rgb(24, 142, 0);
+    
+}
+#img_git{
+    display: block;
+    color: blue;
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5vw;
+    padding-top: 0;
+    /*height: 25%*/;
+
+}
+#img_github{
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1vw;
+}
