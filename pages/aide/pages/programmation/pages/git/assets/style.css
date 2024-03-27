@@ -15,6 +15,13 @@ h1{
     color: rgb(24, 142, 0);
     
 }
+h2{
+    font-family:'Alien-Encounters' ;
+    font-size: 600%;
+    margin-top: -15vh;
+    text-align: center;
+    color: rgb(249,255,0);
+}
 #img_git{
     display: block;
     color: blue;
@@ -32,4 +39,64 @@ h1{
     margin-left: auto;
     margin-right: auto;
     margin-top: -1vw;
+}
+#separateur{
+    display: block;
+    width: 80vw;
+    height: 0.50vh;
+    padding-top: 20vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+#separateur2{
+    display: block;
+    width: 70vw;
+    height: 1vh;
+    padding-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container{
+    display: block;
+    width: 90vw;
+    height: 80vh;
+    border-radius: 2vw;
+    background-color: rgb(24,142,0);
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+        
+}
+.container2{
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-color: rgb(24, 142, 0);
+    column-gap: 1vw;
+    row-gap: 0.5vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    height: auto;
+    padding-bottom: 1vh;
+    
+    
+
+    
+}
+.grid-item {
+    display: grid;
+    background-color: rgb(102, 177, 95);
+    font-size: 1.2vw;    
+    padding-left: 1vw;    
+    font-weight: 600;
+    /*vertical-align: middle;*/
+}
+.grid-item p{
+    vertical-align: middle;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.lien a{
+    display: inline-block;
+    font-size: 2vw;
 }

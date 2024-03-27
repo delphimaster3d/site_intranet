@@ -10,6 +10,97 @@
     <h1>AIDE</h1>
     <img id="img_git" src="/pages/aide/pages/programmation/pages/git/assets/img/Git-Logo-Black.png" alt="">
     <img id="img_github" src="/pages/aide/pages/programmation/pages/git/assets/img/GitHub-Emblem.png" alt="">
+    <img id="separateur2" src="/pages/aide/pages/programmation/pages/git/assets/img/separateur2.png" alt="">
+    
+    
+    <div class="container">
+        <img id="separateur" src="/pages/aide/pages/programmation/pages/git/assets/img/separateur.jpg" alt="">
+        <h2>COMMANDES</h2>        
+        <div class="container2">
+            <div class="grid-item"><p>git init</p></div>
+            <div class="grid-item"><p>creer un depot dans le dossier cible</p></div>
+            <div class="grid-item"><p>git status</p></div>
+            <div class="grid-item"><p>donner le status du depot</p></div>
+            <div class="grid-item"><p>git add nom_de_fichier</p></div>
+            <div class="grid-item"><p>ajouter tel fichier au depot</p></div>
+            <div class="grid-item"><p>git add .</p></div>
+            <div class="grid-item"><p>Ajouter tous les fichiers modifié</p></div>
+            <div class="grid-item"><p>git commit</p></div>
+            <div class="grid-item"><p>créer un commit a partir de la zone d'index</p></div>
+            <div class="grid-item"><p>git commit -m"#n message"</p></div>
+            <div class="grid-item"><p> commit avec un message ou "n" est le numero de l'issue</p></div>
+            <div class="grid-item"><p>git diff –cached fichier</p></div>
+            <div class="grid-item"><p>affiche les modifications indexé</p></div>
+            <div class="grid-item"><p>git log</p></div>
+            <div class="grid-item"><p>historique des commit</p></div>
+            <div class="grid-item"><p>git log -n 2</p></div>
+            <div class="grid-item"><p>affiche les 2 derniers commits(on peut remplacer le 	chiffre 2 par le nombre de commit qu'on veut voir)</p></div>
+            <div class="grid-item"><p>git show sha-1</p></div>
+            <div class="grid-item"><p>affiche le contenu du commit correspondant</p></div>
+            <div class="grid-item"><p>git show tag</p></div>
+            <div class="grid-item"><p>meme que precedent</p></div>
+            <div class="grid-item"><p>git checkout sha-1</p></div>
+            <div class="grid-item"><p>se deplacer sur le commit sha-1</p></div>
+            <div class="grid-item"><p>git checkout master</p></div>
+            <div class="grid-item"><p>revenir au dernier commit (tag master)</p></div>
+            <div class="grid-item"><p>git tag --delete nom</p></div>
+            <div class="grid-item"><p>supprimer le tag</p></div>
+            <div class="grid-item"><p>git tag nom -m"description"</p></div>
+            <div class="grid-item"><p>ajouter un tag avec description</p></div>
+            <div class="grid-item"><p>git tag</p></div>
+            <div class="grid-item"><p>lister les tags</p></div>
+            <div class="grid-item"><p>git clone [adresse] [folder name]</p></div>
+            <div class="grid-item"><p>clone un depot git</p></div>
+            <div class="grid-item"><p>git remote add "nom" https://.............	</p></div>
+            <div class="grid-item"><p>créer un remote </p></div>
+            <div class="grid-item"><p>git remote -v</p></div>
+            <div class="grid-item"><p>afficher les remote</p></div>
+            <div class="grid-item"><p>git push -u [remote] [branche]</p></div>
+            <div class="grid-item"><p>pousser un remote ds une branche </p></div>
+            <div class="grid-item"><p>git push [remote] [tag]</p></div>
+            <div class="grid-item"><p>pousser un tag sur le remote</p></div>
+            <div class="grid-item"><p>git push [remote] -tags</p></div>
+            <div class="grid-item"><p>pousser tt les tags sur le remote(si pas spécifié prend par default origin)</p></div>
+            <div class="grid-item"><p>git fetch</p></div>
+            <div class="grid-item"><p>recuperer info sur server distant</p></div>
+            <div class="grid-item"><p>git pull	</p></div>
+            <div class="grid-item"><p>ecrire les info ds depot local</p></div>
+            <div class="grid-item"><p>git blame [fichier]</p></div>
+            <div class="grid-item"><p>affiche le contenu d'un fichier + des infos</p></div>
+            <div class="grid-item"><p>git blame -L 10,20 [fichier]</p></div>
+            <div class="grid-item"><p>affiche le contenu du fidchier de la ligne 10 a 20</p></div>
+            <div class="grid-item"><p>git blame -L 10,+4 [fichier]</p></div>
+            <div class="grid-item"><p>affiche le contenu du fichier a partir de 10 seulement 4 lignes</p></div>
+            <div class="grid-item"><p>git stash save "description"</p></div>
+            <div class="grid-item"><p>mettre dans la zone de stash les modifications du 'workspace' </p></div>
+            <div class="grid-item"><p>git stash list</p></div>
+            <div class="grid-item"><p>listing des modifications dans 'stash'</p></div>
+            <div class="grid-item"><p>git stash show'index'</p></div>
+            <div class="grid-item"><p>description des modifications du stash</p></div>
+            <div class="grid-item"><p>git stash pop 'index'</p></div>
+            <div class="grid-item"><p>injecter les modifications</p></div>
+            <div class="grid-item"><p>git pull --rebase</p></div>
+            <div class="grid-item"><p>faire un rebase au lieu d'un merge(plus propre)</p></div>
+            <div class="grid-item"><p>git branch "nom"</p></div>
+            <div class="grid-item"><p>créé une nouvelle branche</p></div>
+            <div class="grid-item"><p>git branch</p></div>
+            <div class="grid-item"><p>liste les differentes branches en local</p></div>
+            <div class="grid-item"><p>git branch -a</p></div>
+            <div class="grid-item"><p>liste les differentes branch distante</p></div>
+            <div class="grid-item"><p>git branch -d "nom de la branche"</p></div>
+            <div class="grid-item"><p>supprime la branche</p></div>
+            <div class="grid-item"><p>git push origin --delete  "nom"</p></div>
+            <div class="grid-item"><p>supprimer branche distante</p></div>
+            <div class="grid-item"><p>git cherry-pick sha-1</p></div>
+            <div class="grid-item"><p>copier commit d'une branche a une autre</p></div>
+                
+        </div>
+        <div class="lien">
+            <a href="/pages/aide/pages/programmation/index_programmation.html">retour</a>
+            <a href="/index.html">accueil</a>
+        </div>
+        
+    </div>
    
     
 </body>
