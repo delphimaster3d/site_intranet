@@ -1,0 +1,54 @@
+*{
+    background-color: rgb(203, 191, 215);
+    padding: 5px;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    font-size:4vw ;
+    color: rgb(163, 39, 39);
+}
+nav{
+    display: flex;    
+    width: 10vw;
+    height: 80vh;
+    border: 0.5rem solid ;
+    
+    
+    
+    
+}
+li{
+    font-size: 1vw;
+    list-style: none;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 8vw;
+    
+    
+    
+    
+    
+    
+}
+li a{
+    text-decoration: none;    
+    color: black;
+    
+
+    
+}
+.titre{
+    font-size: 2vw;
+    font-weight: 800;
+}
+.titre2{
+    font-size: 1.25vw;
+    font-weight: 600;
+}
+footer a{
+    font-size: 3vh;
+    margin-left: 1vw;
+    color: black;
+}

@@ -71,7 +71,8 @@ h2{
     display: grid;
     grid-template-columns: auto auto ;
     background-color: rgb(24, 142, 0);
-    column-gap: 1vw;
+    -moz-column-gap: 1vw;
+         column-gap: 1vw;
     row-gap: 0.5vw;
     padding-left: 0.5vw;
     padding-right: 0.5vw;
@@ -97,6 +98,7 @@ h2{
 }
 
 .lien a{
+    
     display: inline-block;
     font-size: 2vw;
 }
