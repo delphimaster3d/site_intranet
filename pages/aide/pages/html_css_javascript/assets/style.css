@@ -1,5 +1,6 @@
 body{
     background-color: #fff;
+    margin: 0%;
 }
 #container{
     display: grid;
@@ -8,18 +9,20 @@ body{
     height: 100vh;
     grid-template-columns: 1fr 7fr;
     grid-template-rows: 1fr 8fr 1fr;
-    gap: 10px;
+    
 
 }
 .header{
     
     grid-column: 1/4;
     justify-content: center;
+    border-block-end: solid 2px black;
 
 }
 .nav{
    
     grid-column: 1/2;
+    border-inline-end: solid 2px black;
     
     
 
@@ -39,9 +42,11 @@ body{
 
 }
 .article{
-    
+    background-color: rgb(80, 13, 13);
     grid-column: 2/4;
     flex-direction: column;
+    color: rgb(122, 196, 219);
+    
     
 
 }
@@ -51,10 +56,12 @@ body{
 
 .article img{
     width: 35%;
+    
 }
 .footer{
     
     grid-column: 1/4;
+    border-block-start: solid 2px black;
 
 
 }
@@ -64,4 +71,36 @@ body{
     font-size: 20px;
     font-weight: bold;
     padding: 20px;
+}
+/*exemple1*/
+#grille {
+    display: grid;
+    width: 300px;
+    height: 200px;
+}
+
+.une {
+    background-color: blue;
+}
+
+.deuxe {
+    background-color: green;
+}
+
+.troise {
+    background-color: greenyellow;
+
+}
+
+.quatree {
+    background-color: orange;
+}
+
+.cinqe {
+    background-color: orangered;
+}
+
+.flexboux {
+    display: flex;
+    font-size: 30px;
 }

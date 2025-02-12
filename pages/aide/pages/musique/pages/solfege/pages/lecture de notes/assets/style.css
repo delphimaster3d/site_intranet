@@ -1,0 +1,97 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: rgb(203, 191, 215);
+}
+#conteneur{
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    grid-template-rows: 2fr 4fr 2fr 4fr 2fr;
+    gap: 10px;
+}
+#conteneur2{
+    display: grid;
+    width: 60vw;
+   
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 32%;
+    
+    
+    
+}
+#conteneur2 .flexbox img{
+    
+    
+    height: 120px;
+    justify-content: center;
+}
+.bouton{
+    padding: 1px;
+    border: solid black 4px;
+    border-radius: 30px;
+    
+}
+h1{
+    color: rgb(163, 39, 39);
+}
+.header{
+    background-color: rgb(203, 191, 215);
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.articleun{
+    background-color: rgb(62, 62, 132);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.flexbox img{
+    margin-left: 10%;
+    float: left;
+}
+.articledeux{
+    background-color: rgb(62, 62, 132);    
+    grid-column: 3/4;
+    grid-row: 3/4 ;
+}
+.fa{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+.footer{
+    background-color: rgb(203, 191, 215);
+    grid-column: 1/5;
+    grid-row: 5/6;
+}
+.cle{
+    display: block;
+    margin-top: 8%;
+    text-decoration: none;
+    font-size: 60px;
+    color: greenyellow;
+}
+.flexbox{
+    font-size: 30px;    
+    text-align: center;
+    
+}
+.retour{
+    
+    display: inline;
+}
+.accueil{
+    
+    display: inline;
+    margin-left: 50%;
+}
+.page img{
+    display: block;
+    width: 80%;
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
