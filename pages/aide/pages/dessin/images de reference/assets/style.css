@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(203, 191,215);
+    margin: 0;
+    padding: 0;
+
+}
+.titre{    
+    margin: 0;
+    padding: 0;    
+    overflow: hidden;
+    font-size: 2.5vw;
+    display: inline-block;
+    width: 100vw;
+    height: 10vh;
+    text-align: center;
+    vertical-align: middle;
+        
+    color: rgb(163, 39, 39) ;    
+}
+.conteneursup{
+    display: block;
+    width: 80vw;    
+    margin-left: auto;
+    margin-right: auto;
+} 
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+ }  
+    
+    .boite img{        
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        overflow:scroll;
+        height: 20vh;
+    }
+   
+.footer{    
+    margin-top: 40vh;
+    grid-column: 1/5;
+    grid-row: 5/6;
+}
+.footerimg{
+    margin-top: 15vh;
+}
+.flexbox {
+    font-size: 30px;
+    text-align: center;
+}
+.retour {
+
+    display: inline;
+}
+
+.accueil {
+
+    display: inline;
+    margin-left: 50%;
+}
+.image img{    
+    height: 75vh;
+    
+}
+.image{
+    text-align: center;
+}
+
+
+/*smartphone portrait*/
+@media screen and (max-width:600px) {
+    .titre{
+        font-size: 8vw;
+    }
+    .footer{
+        margin-top: 5vh;
+    }    
+}
+/*smartphone paysage*/
+@media screen and (min-width:750px){
+    .titre{
+        font-size: 3vw;
+    }
+    .footer{
+        margin-top: 25vh;
+    }
+    .flexbox{
+        font-size: 2vw;
+    }
+}
+/*tablette portrait*/
+@media screen and (max-width:1100px) {
+   
+   
+}

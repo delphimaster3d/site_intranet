@@ -1,3 +1,7 @@
+code{
+    font-size: 2vw;
+    overflow-x: auto;
+}
 body{
     padding: 0;
     margin: 0;
@@ -21,10 +25,11 @@ h1{
 
 .lienfinal a{
         
-        font-size: 6vb;
-        text-decoration: none;
-        color: rgb(206, 181, 181);
-        margin-right: 10vh;
+    display: inline-block;    
+    font-size: 6vb;
+    text-decoration: none;
+    color: rgb(163, 39, 39);
+    margin-right: 82vh;
     }
 
 .container{    
@@ -64,76 +69,29 @@ h1{
 .retour {
     font-size: 100px;
 }
-.footer{
-    display: flex;
-    flex-direction: row;
-    padding-left: 1vw;
-}
-.footer a{
-    font-size: 2vw;
-    text-decoration: none;
-    padding-left: 1vw;
-
+.footer {
+    background-color: rgb(203, 191, 215);
+    grid-column: 1/5;
+    grid-row: 5/6;
 }
 
 
-                /* media query pour tablette */
- @media screen and (min-height: 1090px)  { 
-    .lien{
-        
-        margin-bottom: 10px;
+               
 
-    }
-    h1{
-        font-size: 5.5vh;
-    }
+/* smartphone paysage */
+/* tablette portrait*/
+@media screen and (max-width:1100px) {
     .lien a{
-        font-size: 5vh;
+        font-size: 3vh;
     }
-    .container{
-        gap: 0;
+    .lien{
+        margin-bottom: 4px;
     }
+}
+
+/*smartphone portrait*/
+@media screen and (max-width:600px) {
     
-}
-                /* media query pour tablette orientation paysage */
-@media screen and (max-width: 1285px) and (orientation: landscape)  {
-    .lien a{
-        font-size: 6vh;
-        
-    }
-    h1{
-        font-size: 6.5vh;
-    }
-    .lien{
-        margin-bottom: 10px;
-    }
-    .container{
-        gap: 0;
-    }
-    
-}
-                /* mediaquery smartphone */
-@media screen and (max-width: 420px) and (max-height: 920px){
-    .lien a{
-        font-size: 4vh;
-    }
-    h1{
-        font-size: 4.5vh;
-        width: 100vw;
-    }
-    .lien{
-        width: 100vw;
-    }
-}
-                /* mediaquery smartphone orientation paysage */
-@media screen and (max-width: 920px) and (max-height: 420px){
-    .lien a{
-        font-size: 8vh;
-    }
-    h1{
-        font-size: 10.5vh;
-    }
-}
 
 
-
+}

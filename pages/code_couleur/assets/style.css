@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(203,191,215);
+}
+h1{
+    
+    color: rgb(163,39,39);
+    text-align: center;
+}
+.imagco{
+    display: block;
+    border: 4px solid;
+    width: 65vw;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*smartphone portrait*/
+@media screen and (max-width:400px) {
+    .imagco{
+        width: 100vw;
+    }    
+
+}
+/*smartphone paysage*/
+@media screen and (max-width:780px){
+    .imagco{
+        width: 65vw;
+    }
+}
+/*tablette portrait*/
+/*@media screen and (max-width:1100px) {
+  
+}
